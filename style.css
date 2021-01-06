@@ -16,6 +16,10 @@
                     font-family: 'Roboto', sans-serif;
                 }
 
+                .menu-bar{
+                    margin-bottom: 80px;
+                }
+
                 .menu-bar ul li{
                     float: left;
                     padding: 0 20px;
@@ -33,7 +37,7 @@
                     right: 0;
                     top: 0;
                     margin-right: 100px;
-                margin-top: 20px;
+                    margin-top: 20px;
                 }
 
                 /*------Menu part end------- */
@@ -92,10 +96,6 @@
                 /*------Header part end------- */
 
                 /*------About part start------- */
-                /* section{
-                    height: 500px;
-                    padding-bottom: 50px;
-                } */
 
                 .about-part{
                     height: 500px;
@@ -237,8 +237,36 @@
             text-align: right;
         }
 
-
-
-
-                
                 /*------ Work part  end------- */  
+
+                /*------ Footer part  start------- */
+
+    .footer-main h4{
+        color: #666;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .footer-main h2{
+        color: #444;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .icon{
+        text-align: center;
+
+    }
+
+    .icon img{
+        width: 40px;
+        height: 40px;
+        margin: 50px 15px 100px;
+    }
+
+
+
+                /*------ Footer part  end------- */
